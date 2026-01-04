@@ -6,7 +6,7 @@ import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/portfolio-static">
+    <BrowserRouter basename="/Portfolio-Static">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
