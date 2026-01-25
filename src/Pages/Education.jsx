@@ -7,28 +7,60 @@ const STATIC_EDUCATION = [
     _id: "edu1",
     degree: "BSc (Hons) in Information Technology",
     institute: "Undergraduate – 3rd Year",
-    duration: "2022 – Present",
+    duration: "2023 – Present",
     description:
       "Focused on software development, databases, web technologies, and system design.",
+  },
+  {
+    _id: "edu1",
+    degree: "Diploma in Information Technology & English",
+    institute: "Esoft Metro Campus",
+    duration: "2024",
+    description:
+      "Covered programming, networking, database management, and English communication skills.",
   },
 ];
 
 const STATIC_CERTIFICATIONS = [
   {
     _id: "cert1",
-    title: "Frontend Development with React",
-    provider: "Coursera",
-    year: "2024",
+    title: "Operating Systems Basics",
+    provider: "Cisco",
+    year: "2025",
     description:
-      "Hands-on training in React fundamentals, hooks, component architecture, and state management.",
+      "Operating systems fundamentals, including their purpose and features, basic security implementation, and mobile device network and email configuration.",
   },
   {
     _id: "cert2",
-    title: "Java Programming",
-    provider: "Oracle Academy",
-    year: "2023",
+    title: "Introduction to Cybersecurity",
+    provider: "Cisco",
+    year: "2025",
     description:
-      "Covered object-oriented programming concepts, Java SE, and backend fundamentals.",
+      "Introductory knowledge of cybersecurity, including global cyber threats, vulnerabilities, threat detection and defense, career growth, and certification opportunities.",
+  },
+  {
+    _id: "cert3",
+    title: "CCNA: Introduction to Networks",
+    provider: "Cisco",
+    year: "2025",
+    description:
+      "Completed Cisco Introduction to Networks, gaining foundational skills in IP addressing, Ethernet, and configuring switches, routers, and end devices through hands-on labs.",
+  },
+  {
+    _id: "cert4",
+    title: "IT Essentials",
+    provider: "Cisco",
+    year: "2025",
+    description:
+      "Completed Cisco IT Essentials, gaining foundational knowledge in hardware, software, operating systems, networking, mobile devices, and IT troubleshooting through extensive hands-on labs.",
+  },
+  {
+    _id: "cert5",
+    title: "Fundamentals of digital marketing",
+    provider: "Google",
+    year: "2021",
+    description:
+      "Basics fundamentals of digital marketing, including search engine optimization (SEO), search engine marketing (SEM), email marketing, social media marketing, and web analytics.",
   },
 ];
 
@@ -42,7 +74,7 @@ const Education = () => {
     <section className="min-h-screen w-screen bg-linear-to-br from-black via-slate-900 to-black text-white">
       <Header />
 
-      <div className="max-w-6xl mx-auto px-6 py-16">
+      <div className="max-w-6xl mx-auto px-6 py-25">
         {/* ================= TITLE ================= */}
         <h1 className="text-2xl md:text-3xl font-bold text-left mb-16">
           Education

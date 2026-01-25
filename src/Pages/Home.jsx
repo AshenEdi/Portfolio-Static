@@ -28,7 +28,7 @@ const Home = () => {
 
           <div className="flex gap-4">
             <a
-              href="\Ashen-Edward-CV.pdf"
+              href="/Portfolio-Static/Ashen_Edward_CV.pdf"
               download
               className="px-6 py-3 rounded-full text-white font-semibold 
              bg-linear-to-r from-indigo-500 via-indigo-600 to-indigo-700
@@ -54,20 +54,19 @@ const Home = () => {
 
           {/* MAIN IMAGE */}
           <img
-            src="/profile.jpeg"
+            src="/Portfolio-Static/profile.jpeg"
             alt="Profile"
             className="relative rounded-2xl z-10 w-64 md:w-80"
           />
 
-          {/* FLOATING */}
           <img
-            src="/icon1.png"
+            src="/Portfolio-Static/icon1.png"
             alt="Code"
             className="absolute top-10 left-10 w-20 animate-float"
           />
 
           <img
-            src="/icon2.png"
+            src="/Portfolio-Static/icon2.png"
             alt="VSCode"
             className="absolute bottom-10 right-10 w-20 animate-float-delayed"
           />
