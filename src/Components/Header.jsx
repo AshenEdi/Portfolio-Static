@@ -58,11 +58,6 @@ const Header = () => {
                 <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.2 8.98h4.56V24H.2zM8.98 8.98h4.38v2.05h.06c.61-1.16 2.11-2.38 4.34-2.38 4.64 0 5.5 3.05 5.5 7.02V24h-4.56v-6.9c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.64V24H8.98z" />
               </svg>
             </a>
-
-            {/* Brand */}
-            <span className="text-lg font-bold tracking-wide text-indigo-400">
-              Ashen Edward
-            </span>
           </div>
 
           {/* DESKTOP NAV */}
