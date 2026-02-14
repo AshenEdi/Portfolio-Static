@@ -28,11 +28,11 @@ const Home = () => {
             of software development, system design, and IT operations.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <a
               href="/Portfolio-Static/Ashen-Edward-CV.pdf"
               download
-              className="px-6 py-3 rounded-full text-white font-semibold 
+              className="px-6 py-3 w-full sm:w-auto rounded-full text-white font-semibold 
              bg-linear-to-r from-indigo-500 via-indigo-600 to-indigo-700
              hover:from-indigo-600 hover:via-indigo-700 hover:to-indigo-800
              transition inline-block"
@@ -42,7 +42,7 @@ const Home = () => {
 
             <Link
               to="/contact"
-              className="px-6 py-3 rounded-full border border-gray-500 text-white hover:border-white hover:bg-white/10 transition inline-block"
+              className="px-6 py-3 w-full sm:w-auto rounded-full border border-gray-500 text-white hover:border-white hover:bg-white/10 transition inline-block"
             >
               Contact Me
             </Link>
@@ -76,29 +76,54 @@ const Home = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="relative flex justify-center items-center">
-          {/* Glow */}
-          <div className="absolute w-96 h-96 bg-orange-500/25 rounded-full blur-3xl"></div>
+        <div className="relative flex justify-center items-center mt-10 lg:mt-0">
 
-          {/* MAIN IMAGE */}
-          <img
-            src="/Portfolio-Static/profile.jpeg"
-            alt="Profile"
-            className="relative rounded-2xl z-10 w-64 md:w-80"
-          />
+  {/* Glow */}
+  <div className="absolute 
+                  w-64 h-64 
+                  sm:w-80 sm:h-80 
+                  md:w-96 md:h-96 
+                  bg-orange-500/25 
+                  rounded-full 
+                  blur-3xl">
+  </div>
 
-          <img
-            src="/Portfolio-Static/icon1.png"
-            alt="Code"
-            className="absolute top-10 left-10 w-20 animate-float"
-          />
+  {/* MAIN IMAGE */}
+  <img
+    src="/Portfolio-Static/profile.jpeg"
+    alt="Profile"
+    className="relative z-10 
+               w-48 
+               sm:w-56 
+               md:w-72 
+               lg:w-80 
+               rounded-2xl"
+  />
 
-          <img
-            src="/Portfolio-Static/icon2.png"
-            alt="VSCode"
-            className="absolute bottom-10 right-10 w-20 animate-float-delayed"
-          />
-        </div>
+  {/* Icon 1 */}
+  <img
+    src="/Portfolio-Static/icon1.png"
+    alt="Code"
+    className="absolute 
+               top-4 left-4 
+               sm:top-8 sm:left-8 
+               w-12 sm:w-16 md:w-20 
+               animate-float"
+  />
+
+  {/* Icon 2 */}
+  <img
+    src="/Portfolio-Static/icon2.png"
+    alt="VSCode"
+    className="absolute 
+               bottom-4 right-4 
+               sm:bottom-8 sm:right-8 
+               w-12 sm:w-16 md:w-20 
+               animate-float-delayed"
+  />
+
+</div>
+
       </div>
     </section>
   );
