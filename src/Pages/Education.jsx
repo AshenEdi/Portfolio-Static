@@ -71,7 +71,8 @@ const Education = () => {
   const loading = false;
 
   return (
-    <section className="min-h-screen w-screen bg-linear-to-br from-black via-slate-900 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-br from-black via-slate-900 to-black text-white">
+
       <Header />
 
       <div className="max-w-6xl mx-auto px-6 py-25">
@@ -151,7 +152,7 @@ const Education = () => {
           </>
         )}
       </div>
-    </section>
+    </div>
   );
 };
 

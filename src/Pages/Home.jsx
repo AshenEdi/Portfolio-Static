@@ -1,5 +1,7 @@
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";
+import { Github, Linkedin } from "lucide-react";
+
 
 const Home = () => {
   return (
@@ -28,7 +30,7 @@ const Home = () => {
 
           <div className="flex gap-4">
             <a
-              href="/Portfolio-Static/Ashen_Edward_CV.pdf"
+              href="/Portfolio-Static/Ashen-Edward-CV.pdf"
               download
               className="px-6 py-3 rounded-full text-white font-semibold 
              bg-linear-to-r from-indigo-500 via-indigo-600 to-indigo-700
@@ -44,6 +46,32 @@ const Home = () => {
             >
               Contact Me
             </Link>
+             {/* GitHub Button */}
+            <a
+              href="https://github.com/AshenEdi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-full border border-white/20 
+                        bg-white/5 backdrop-blur-md
+                        text-white flex items-center gap-2
+                        hover:border-orange-400 hover:bg-white/10
+                        transition duration-300"
+            >
+              <Github size={18} />
+            </a>
+            {/* LinkedIn Button */}
+            <a
+              href="http://www.linkedin.com/in/ashen-edward-b34407217"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 rounded-full border border-white/20 
+                        bg-white/5 backdrop-blur-md
+                        text-white flex items-center gap-2
+                        hover:border-blue-400 hover:bg-white/10
+                        transition duration-300"
+            >
+              <Linkedin size={18} />
+            </a>
           </div>
         </div>
 
