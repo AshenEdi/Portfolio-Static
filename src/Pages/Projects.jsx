@@ -70,9 +70,9 @@ const Projects = () => {
           and full-stack development skills.
         </p>
 
-        <TechStackChart projects={projects} />
+        
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-14 mb-10">
           {projects.map((project) => (
             <div
               key={project._id}
@@ -155,6 +155,7 @@ const Projects = () => {
             </div>
           ))}
         </div>
+        <TechStackChart projects={projects} />
       </div>
 
       {/* ================= MODAL ================= */}

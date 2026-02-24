@@ -26,7 +26,7 @@ const TechStackChart = ({ projects }) => {
 
   return (
     <div
-      className="mb-20 p-6 md:p-8 rounded-2xl
+      className="p-6 md:p-8 rounded-2xl
                  bg-white/5 border border-white/10
                  backdrop-blur-xl"
     >
