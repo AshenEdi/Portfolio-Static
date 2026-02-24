@@ -30,8 +30,8 @@ const TechStackChart = ({ projects }) => {
                  bg-white/5 border border-white/10
                  backdrop-blur-xl"
     >
-      <h2 className="text-2xl md:text-3xl font-bold mb-2">
-        Tech Stack <span className="text-orange-500">Analytics</span>
+      <h2 className="text-1xl md:text-3xl font-bold mb-2">
+        Tech Stack Analytics
       </h2>
 
       <p className="text-gray-400 text-sm mb-6 max-w-xl">

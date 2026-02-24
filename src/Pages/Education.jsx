@@ -71,7 +71,7 @@ const Education = () => {
   const loading = false;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-slate-900 to-black text-white">
+    <div className="min-h-screen text-white">
 
       <Header />
 

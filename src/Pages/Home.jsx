@@ -5,7 +5,7 @@ import { Github, Linkedin } from "lucide-react";
 
 const Home = () => {
   return (
-    <section className="min-h-screen w-screen bg-linear-to-br from-black via-slate-900 to-black text-white flex items-center">
+    <section className="min-h-screen w-screen text-white flex items-center">
       {/* CONTENT WRAPPER */}
       <div>
         <Header />
@@ -32,7 +32,7 @@ const Home = () => {
             <a
               href="/Portfolio-Static/Ashen-Edward-CV.pdf"
               download
-              className="px-6 py-3 w-full sm:w-auto rounded-full text-white font-semibold 
+              className="px-6 py-3 w-full sm:w-auto rounded-full !text-white font-semibold 
              bg-linear-to-r from-indigo-500 via-indigo-600 to-indigo-700
              hover:from-indigo-600 hover:via-indigo-700 hover:to-indigo-800
              transition inline-block"

@@ -71,7 +71,7 @@ const Contact = () => {
   ];
 
   return (
-    <section className="min-h-screen w-screen bg-linear-to-br from-black via-slate-900 to-black text-white py-12">
+    <section className="min-h-screen w-screen text-white py-12">
       <div className="w-full max-w-7xl mx-auto px-6">
         <Header />
 
